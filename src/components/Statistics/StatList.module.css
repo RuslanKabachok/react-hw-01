@@ -1,0 +1,49 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.item:nth-child(1) {
+  background-color: aquamarine;
+}
+
+.item:nth-child(2) {
+  background-color: tomato;
+}
+
+.item:nth-child(3) {
+  background-color: cornflowerblue;
+}
+
+.item:nth-child(4) {
+  background-color: sandybrown;
+}
+
+.item:nth-child(5) {
+  background-color: darkblue;
+}
+
+.item {
+  color: aliceblue;
+  width: 85px;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: aliceblue;
+  padding-bottom: 15px;
+  font-size: small;
+  text-transform: lowercase;
+}
+
+.percentage {
+  font-size: 20px;
+}

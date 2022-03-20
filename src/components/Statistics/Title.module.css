@@ -1,0 +1,9 @@
+.title {
+  align-self: center;
+  font-size: 25px;
+  font-style: normal;
+  margin: 0;
+  padding: 25px;
+  text-transform: uppercase;
+  color: gray;
+}
