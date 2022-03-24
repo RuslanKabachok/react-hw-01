@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './StatList.module.css';
-import data from 'data.json';
 
 export const StatList = ({ stats }) => {
   return (
     <ul className={css.list}>
-      {data.map(info => (
+      {stats.map(info => (
         <li key={info.id} className={css.item}>
           <span className={css.label}>{info.label}</span>
           <span className={css.percentage}>{info.percentage}%</span>
