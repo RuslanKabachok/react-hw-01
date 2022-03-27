@@ -1,6 +1,7 @@
 import user from 'user.json';
 import transactions from 'transaction.json';
 import friends from 'friends.json';
+import data from 'data.json';
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { Friends } from './FriendsList/Friends';
@@ -27,7 +28,7 @@ export const App = () => {
         stats={user.stats}
       />
 
-      <Statistics />
+      <Statistics stats={data} />
 
       <Friends friends={friends} />
 

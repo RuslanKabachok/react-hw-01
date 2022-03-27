@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  margin-bottom: 8px;
+  background-color: antiquewhite;
+  width: 450px;
+}
+
+.status {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0px 50px 0px 30px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.name {
+  padding-left: 60px;
+  font-size: 35px;
+  text-transform: none;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
